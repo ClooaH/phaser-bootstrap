@@ -5,7 +5,7 @@ module.exports = {
     mode: 'development',
     entry: {
         app: './src/app.ts',
-        vendors: ['phaser']
+        vendors: ['phaser'],
     },
     devtool: 'inline-source-map',
     devServer: {
@@ -32,7 +32,7 @@ module.exports = {
         ],
     },
     resolve: {
-        extensions: [ '.tsx', '.ts', '.js' ],
+        extensions: ['.tsx', '.ts', '.js'],
     },
     output: {
         filename: '[name].bundle.js',
